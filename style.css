@@ -1,0 +1,110 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #000;
+    margin: 0;
+    padding: 20px;
+    color: white;
+  }
+  
+  h1 {
+    font-family: 'Lobster', cursive; /* Fun, bold font for title */
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  #nameInput {
+    background-color: #000;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #111;
+    display: inline-block;
+  }
+  
+  #nameInput input {
+    padding: 12px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    font-size: 1em;
+    width: 220px;
+    background-color: #111;
+    color: white;
+    outline: none;
+    font-family: 'Poppins', sans-serif; /* Modern font for inputs */
+  }
+  
+  #nameInput input::placeholder {
+    color: #888;
+  }
+  
+  #nameInput button {
+    padding: 10px 25px;
+    font-size: 1em;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  #nameInput button:hover {
+    background-color: #666;
+    transform: scale(1.05);
+  }
+  
+  #game {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 30px auto;
+    margin-top: 50px;
+  }
+  
+  .cell {
+    width: 120px;
+    height: 120px;
+    font-size: 3em;
+    color: white;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .cell:hover {
+    background-color: #444;
+    transform: scale(1.05);
+  }
+  
+  #status {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #666;
+    transform: scale(1.05);
+  }
+  
